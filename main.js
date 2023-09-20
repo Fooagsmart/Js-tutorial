@@ -18,3 +18,7 @@ let x2 = 34;
 let x3 = 3.14;
 document.getElementById("o").innerHTML = x1  + "<br>" + x2 + "<br>" + x3;
 
+//<p>Extra large or extra small numbers can be written with scientific (exponential) notation:</p>
+let y = 123e5;
+let z = 123e-5;
+document.getElementById('y').innerHTML = y + "<br>" + z;
