@@ -22,3 +22,19 @@ document.getElementById("o").innerHTML = x1  + "<br>" + x2 + "<br>" + x3;
 let y = 123e5;
 let z = 123e-5;
 document.getElementById('y').innerHTML = y + "<br>" + z;
+
+//<p>Array indexes are zero-based, which means the first item is [0].</p>
+const cars = ["Saab","Volvo","BMW"];
+
+document.getElementById("D").innerHTML = cars[1];
+
+//<h2>JavaScript Objects</h2>
+const person = {
+    firstName : "John",
+    lastName : "Doe",
+    age : 50,
+    eyeColor : "blue"
+};
+
+//JavaScript Objects
+document.getElementById("fe").innerHTML = person.firstName + "is" + person.age + "years old.";
