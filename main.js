@@ -38,3 +38,7 @@ const person = {
 
 //JavaScript Objects
 document.getElementById("fe").innerHTML = person.firstName + "is" + person.age + "years old.";
+
+//<p>An empty string has both a legal value and a type:</p>
+let car = "";
+document.getElementById("hmm").innerHTML = "THE VALUE IS: " + car + "<br>" + "THE TYPE IS: " + typeof car; 
