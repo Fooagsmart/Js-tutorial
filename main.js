@@ -48,3 +48,10 @@ function myFunction(p1, p2) {
 }
 let result = myFunction(4, 3); 
 document.getElementById("fun").innerHTML = result;
+
+    let m = myFunction(4, 3);
+document.getElementById("one").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
