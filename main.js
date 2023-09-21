@@ -42,3 +42,9 @@ document.getElementById("fe").innerHTML = person.firstName + "is" + person.age +
 //<p>An empty string has both a legal value and a type:</p>
 let car = "";
 document.getElementById("hmm").innerHTML = "THE VALUE IS: " + car + "<br>" + "THE TYPE IS: " + typeof car; 
+
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+let result = myFunction(4, 3); 
+document.getElementById("fun").innerHTML = result;
