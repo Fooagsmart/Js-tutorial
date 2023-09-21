@@ -56,16 +56,21 @@ function myFunction(a, b) {
   return a * b;
 }
 
-function toCelcius(f){
+function toCelsius(f){
     return (5/9) * (f-32);
 }
 
-//let value = toCelcius(77);
+//let value = toCelsius(77);
 //document.getElementById("fah").innerHTML = value;
 
-function toCelcius(f){
+function toCelsius(f){
     return (5/9) * (f-32)
 }
-//let value = toCelcius();
+//let value = toCelsius();
 //document.getElementById("to").innerHTML = value;
 
+let text = "The temperature is " + toCelsius(77) + "Celsius."; 
+document.getElementById("var").innerHTML = text;
+function toCelsius(f){
+    return (5/9) * (f-32)
+} 
