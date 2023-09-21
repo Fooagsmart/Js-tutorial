@@ -74,3 +74,14 @@ document.getElementById("var").innerHTML = text;
 function toCelsius(f){
     return (5/9) * (f-32)
 } 
+
+let texts = "Outside: " + typeof carName;
+document.getElementById("demo1").innerHTML = text;
+
+function myFunction(){
+    let carName = "Volvo";
+    let text = "inside: " + typeof carName + " " + carName;
+
+    document.getElementById("demo2").innerHTML = text;
+}
+myFunction();
