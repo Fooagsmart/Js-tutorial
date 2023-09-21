@@ -55,3 +55,10 @@ document.getElementById("one").innerHTML = x;
 function myFunction(a, b) {
   return a * b;
 }
+
+function toCelcius(f){
+    return (5/9) * (f-32);
+}
+
+let value = toCelcius(77);
+document.getElementById("fah").innerHTML = value;
