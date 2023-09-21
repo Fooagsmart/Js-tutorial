@@ -60,5 +60,12 @@ function toCelcius(f){
     return (5/9) * (f-32);
 }
 
-let value = toCelcius(77);
-document.getElementById("fah").innerHTML = value;
+//let value = toCelcius(77);
+//document.getElementById("fah").innerHTML = value;
+
+function toCelcius(f){
+    return (5/9) * (f-32)
+}
+//let value = toCelcius();
+//document.getElementById("to").innerHTML = value;
+
