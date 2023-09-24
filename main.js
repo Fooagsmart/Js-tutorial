@@ -69,19 +69,18 @@ function toCelsius(f){
 //let value = toCelsius();
 //document.getElementById("to").innerHTML = value;
 
-let text = "The temperature is " + toCelsius(77) + "Celsius."; 
+//let text = "The temperature is " + toCelsius(77) + "Celsius."; 
 document.getElementById("var").innerHTML = text;
 function toCelsius(f){
     return (5/9) * (f-32)
 } 
-
-let texts = "Outside: " + typeof carName;
+let text = "Outside: " + typeof carName1;
 document.getElementById("demo1").innerHTML = text;
 
-function myFunction(){
-    let carName = "Volvo";
-    let text = "inside: " + typeof carName + " " + carName;
-
-    document.getElementById("demo2").innerHTML = text;
+function myFunction() {
+  let carName1 = "Volvo";
+  let text = "Inside: " + typeof carName1 + " " + carName1; 
+  document.getElementById("demo2").innerHTML = text;
 }
+
 myFunction();
